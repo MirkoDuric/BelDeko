@@ -1,0 +1,31 @@
+
+/* ********************************
+            Global styles 
+***********************************/
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background-image: url(./img/bkg.jpg);
+}
+/* ********************************
+            Layout
+***********************************/
+
+/* ********************************
+            Specific styles
+************************************/
+.header-main {
+    background-image: url(./img/bkg-main.jpg);
+}
+
+/***********************************
+            Helper classes 
+************************************/
+.img-radovi {
+    width: 50%;
+    border-radius: 50%;
+}
