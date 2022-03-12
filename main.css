@@ -7,10 +7,15 @@
     margin: 0 auto;
     line-height: 1.4;
     font-family: 'Open Sans', sans-serif;
+    list-style: none;
 }
 body {
     background-image: url(./img/bkg.jpg);
 }
+.navbar ul a {
+    text-decoration: none;
+}
+
 /* ********************************
             Layout
 ***********************************/
@@ -18,14 +23,51 @@ body {
 /* ********************************
             Specific styles
 ************************************/
+.main-header {
+    background-color: #B01C1C;
+    text-align: center;
+}
+.main-header .logo {
+    padding: 25px 0 25px 0;
+    color: #fff;
+    font-size: 24px;
+}
+.main-header .logo .bold {
+    font-weight: bold;
+}
 .header-main {
     background-image: url(./img/bkg-main.jpg);
+    height: 300px;
 }
+.header-main .navigacija {
+    background-color: #B01C1C;
+}
+.header-main .navigacija a {
+    color: #fff;
+}
+.header-main .navigacija a:hover {
+    background-color: #E21717;
+}
+.header-main .navigacija a:active{
+    background-color: #E21717;
 
-/***********************************
-            Helper classes 
-************************************/
+}
+.containermain {
+    background-color: #fff;
+    text-align: center;
+}
+.cssarticle1 {
+    padding: 70px 30px;
+}
+.cssarticle1 h2,p {
+    padding-bottom: 30px;
+}
 .img-radovi {
     width: 50%;
     border-radius: 50%;
+    margin: 20px 0 60px 0;
 }
+/***********************************
+            Helper classes 
+************************************/
+
