@@ -65,11 +65,10 @@ body {
     color: #fff;
 }
 .header-main .navigacija a:hover {
-    background-color: #E21717;
+    background-color: #E2171771;
 }
 .header-main .navigacija .active{
     background-color: #E21717;
-
 }
 .radovi-header-sec .navigacija a:hover {
     background-color: #E2171771;
@@ -84,11 +83,15 @@ body {
 .cssarticle1 h2,p {
     padding-bottom: 30px;
 }
+.btn {
+    padding: 10px 20px !important;
+}
 .img-radovi {
     width: 50%;
     border-radius: 50%;
-    margin: 10px 0 50px 0;
+    margin: 0 0 50px 0;
 }
+/* POCETNA END */
 /* RADOVI */
 .radovi-header-sec {
     background-image: url(./img/usluge-header.jpg);
@@ -127,6 +130,19 @@ body {
     margin: 20px 0 50px 0;
 }
 /* RADOVI END */
+/* KARIJERA */
+.header-karijera .navigacija {
+    background-color: #B01C1C;
+}
+.header-karijera .navigacija a {
+    color: #fff;
+}
+.header-karijera .navigacija a:hover {
+    background-color: #E2171771;
+}
+.header-karijera .navigacija .active{
+    background-color: #E21717;
+}
 /***********************************
             Helper classes 
 ************************************/
