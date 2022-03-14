@@ -15,14 +15,6 @@ body {
 .navbar ul a {
     text-decoration: none;
 }
-
-/* ********************************
-            Layout
-***********************************/
-
-/* ********************************
-            Specific styles
-************************************/
 .main-header {
     background-color: #B01C1C;
     text-align: center;
@@ -35,6 +27,23 @@ body {
 .main-header .logo .bold {
     font-weight: bold;
 }
+.containermain {
+    background-color: #fff;
+    text-align: center;
+}
+.main-footer {
+    background-color: #B01C1C;
+    text-align: center;
+    color: #fff;
+}
+.main-footer .col p {
+    padding: 25px 0 25px 0;
+    margin-bottom: auto;
+}
+/* ********************************
+            Specific styles
+************************************/
+/* POCETNA */
 .header-main {
     background-position: center center;
     background-repeat: no-repeat;
@@ -46,6 +55,12 @@ body {
 .header-main .navigacija {
     background-color: #B01C1C;
 }
+.radovi-header-sec .navigacija {
+        background-color: #B01C1C;
+}
+.radovi-header-sec .navigacija a {
+    color: #fff;
+}
 .header-main .navigacija a {
     color: #fff;
 }
@@ -56,10 +71,13 @@ body {
     background-color: #E21717;
 
 }
-.containermain {
-    background-color: #fff;
-    text-align: center;
+.radovi-header-sec .navigacija a:hover {
+    background-color: #E2171771;
 }
+.radovi-header-sec .navigacija .active{
+    background-color: #E21717;
+}
+
 .cssarticle1 {
     padding: 70px 30px;
 }
@@ -71,15 +89,44 @@ body {
     border-radius: 50%;
     margin: 10px 0 50px 0;
 }
-.main-footer {
+/* RADOVI */
+.radovi-header-sec {
+    background-image: url(./img/usluge-header.jpg);
+    height: 450px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.naslov-usluge {
+    margin-bottom: 50px;
     background-color: #B01C1C;
-    text-align: center;
+    padding: 15px 0;
     color: #fff;
 }
-.main-footer .col p {
-    padding: 25px 0 25px 0;
-    margin-bottom: auto;
+.usluge {
+    padding: 20px 0;
 }
+.usluge-1 {
+    background-color: #F5F5F5;
+    padding: 20px;
+}
+.img-usluge {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.containermain .usluge h3 {
+    background-color: #B01C1C;
+    padding: 10px 0;
+    color: #fff;
+    width: 220px;
+    margin-bottom: 25px;
+}
+.btn {
+    margin: 20px 0 50px 0;
+}
+/* RADOVI END */
 /***********************************
             Helper classes 
 ************************************/
